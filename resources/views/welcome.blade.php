@@ -139,8 +139,8 @@
                 </div>
             </div>
         </main>
-        <footer class="bg-light text-center" style="margin-top: 116px;">
-            <div class="text-center p-3" style="background-color: #b7f165; color: black;">
+        <footer class="text-center" style="margin-top: 117px;">
+            <div class="text-center p-3" style="background-color: #9be531; color: black;">
                 Desarrollado por Emiliano Pérez Méndez &copy; <?= date('Y') ?>
             </div>
         </footer>

@@ -2,10 +2,10 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="margin-bottom: 70px;">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header" style="background-color: #6c757d;">
+                <div class="card-header border border-0" style="background-color: #b7f165;">
                     <img src="{{asset('storage/Product.png')}}" style="width: 25px;">
                     {{ __('Editar ') }}
                 </div>
@@ -26,7 +26,7 @@
                         <label>Stock</label>
                         <input type="number" name="stock" value="{{$product->stock}}">
 
-                        <button class="btn btn-secondary" style="margin-top: 10px; margin-bottom: 10px;">Editar producto</button>
+                        <button class="btn btn border border-0 text-black mt-3 mb-3" style="background-color: #b7f165">Editar producto</button>
     				</form>       
                 
                 </div>
